@@ -1,8 +1,8 @@
 import { Container } from "./style";
 
-const Heart = ({ size }) => {
+const Heart = ({ size, color, numHeart }) => {
     return(
-        <Container size={size}></Container>
+        <Container size={size} color={color} numHeart={numHeart}></Container>
     )
 }
 
