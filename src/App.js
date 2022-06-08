@@ -1,11 +1,11 @@
-import Background from "./components/Background";
 import GlobalStyle from "./style/globalStyle"
+import Card from "./components/Card";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Background />
+      <Card />
     </>
   );
 }
