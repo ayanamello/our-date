@@ -1,4 +1,4 @@
-export const dates = [
+export const datesList = [
     {
         id: 1,
         name: "Ir ao Racletto",
