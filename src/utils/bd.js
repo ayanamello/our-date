@@ -216,7 +216,7 @@ export const datesList = [
     },
     {
         id: 44,
-        name: "Ir ao Happy Hour Pizzaria",
+        name: "Ir à Happy Hour Pizzaria",
         local: "Rio Varmelho"
     },
     {

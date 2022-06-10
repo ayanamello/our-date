@@ -1,6 +1,7 @@
-import { Container, Header } from "./style";
+import { Container, Header, DatesList } from "./style";
 import { datesList } from "../../utils/bd";
 import Card from "../../components/Card";
+import Heart from "../../components/Heart";
 
 
 const Home = () => {
@@ -12,12 +13,11 @@ const Home = () => {
                 <h1>Our Date</h1>
             </Header>
 
-            <section className="dates-list">
+            <DatesList>
                 { shuffledDates.map((item, index) => {
-                    <Card />
+                    return <Card key={index} name={item.name} local={item.local} />
                 })}
-            </section>
-
+            </DatesList>
         </Container>
     )
 }
