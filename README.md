@@ -1,8 +1,8 @@
-<header align="center">
+<div align="center">
     <img src="./public/favicon.ico" width="20px"/>
     <h1 style="margin-top: -2px;">Our Date</h1>
     <h3 style="margin-top: -20px;">Valentine's Day project!</h3>
-</header> 
+</div> 
 
 <p align="center">
      Cardboard with various activities to do with the girlfriend in Salvador.
